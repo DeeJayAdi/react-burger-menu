@@ -3,8 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --react-hamburger-menu-background-color: #205fa7;
+  --react-hamburger-menu-background-color2: #1e5492;
+  --react-hamburger-menu-font-color: white;
+}
 html {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   font-family: sans-serif;
 }
@@ -12,5 +17,25 @@ div.react-hamburger-menu {
   position: sticky;
   top: 0;
   left: 0;
-  background-color: rebeccapurple;
+  background-color: var(--react-hamburger-menu-background-color);
+  cursor: pointer;
+}
+
+.show-enter {
+  opacity: 0;
+  height: 0%;
+}
+.show-enter-active {
+  opacity: 1;
+  transition: 300ms;
+}
+.show-exit {
+  opacity: 1;
+}
+.show-exit-active {
+  opacity: 0;
+  transition: 300ms;
+}
+.show-exit-done {
+  opacity: 0;
 }

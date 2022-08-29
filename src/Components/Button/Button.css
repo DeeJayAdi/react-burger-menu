@@ -1,0 +1,13 @@
+div.react-hamburger-menu-button {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: filter 300ms;
+  color: var(--react-hamburger-menu-font-color);
+  background-color: var(--react-hamburger-menu-background-color);
+}
+div.react-hamburger-menu-button:hover {
+  filter: brightness(85%);
+}

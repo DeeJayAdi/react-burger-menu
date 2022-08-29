@@ -1,0 +1,33 @@
+div.react-hamburger-menu-icon {
+  width: 50px;
+  height: 50px;
+  padding: 10px 0 10px 0;
+  background-color: var(--react-hamburger-menu-background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: filter 300ms;
+}
+div.react-hamburger-menu-icon:hover {
+  filter: brightness(85%);
+}
+div.react-hamburger-menu-icon > div {
+  background-color: var(--react-hamburger-menu-font-color);
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  transition: 300ms;
+}
+div.react-hamburger-menu-icon > div:first-child {
+  margin-top: none;
+}
+div.react-hamburger-menu-icon.active > div:nth-child(1) {
+  transform: translate(0px, 12px) rotate(45deg);
+}
+div.react-hamburger-menu-icon.active > div:nth-child(2) {
+  opacity: 0;
+}
+div.react-hamburger-menu-icon.active > div:nth-child(3) {
+  transform: translate(0px, -12px) rotate(-45deg);
+}

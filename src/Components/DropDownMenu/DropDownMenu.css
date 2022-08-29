@@ -1,0 +1,27 @@
+div.react-hamburger-dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--react-hamburger-menu-background-color);
+}
+div.react-hamburger-dropdown-menu.active {
+  background-color: var(--react-hamburger-menu-background-color2);
+}
+div.react-hamburger-dropdown-menu-label {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: filter 300ms;
+  color: var(--react-hamburger-menu-font-color);
+  background-color: var(--react-hamburger-menu-background-color);
+}
+div.react-hamburger-dropdown-menu-label.active {
+  background-color: var(--react-hamburger-menu-background-color2);
+}
+div.react-hamburger-dropdown-menu-label:hover {
+  filter: brightness(85%);
+}
+div.react-hamburger-dropdown-menu-list {
+  margin: 5px 0px 5px 5px;
+}
