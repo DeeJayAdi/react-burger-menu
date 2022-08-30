@@ -21,6 +21,17 @@ div.react-hamburger-menu {
   cursor: pointer;
 }
 
+@media (min-width: 900px) {
+  div.react-hamburger-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  div.react-hamburger-menu-list > div {
+    width: max-content;
+  }
+}
+
 .show-enter {
   opacity: 0;
   height: 0%;

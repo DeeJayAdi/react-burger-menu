@@ -31,3 +31,9 @@ div.react-hamburger-menu-icon.active > div:nth-child(2) {
 div.react-hamburger-menu-icon.active > div:nth-child(3) {
   transform: translate(0px, -12px) rotate(-45deg);
 }
+
+@media (min-width: 900px) {
+  div.react-hamburger-menu-icon {
+    display: none;
+  }
+}

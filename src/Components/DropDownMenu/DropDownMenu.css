@@ -25,3 +25,20 @@ div.react-hamburger-dropdown-menu-label:hover {
 div.react-hamburger-dropdown-menu-list {
   margin: 5px 0px 5px 5px;
 }
+
+@media (min-width: 900px) {
+  div.react-hamburger-dropdown-menu-list {
+    position: absolute;
+    margin: 0;
+    top: 100%;
+    width: max-content;
+    padding: 5px 0 5px 5px;
+    background-color: var(--react-hamburger-menu-background-color2);
+  }
+  div.react-hamburger-dropdown-menu-list
+    > div.react-hamburger-dropdown-menu
+    > div.react-hamburger-dropdown-menu-list {
+    position: relative;
+    width: 100%;
+  }
+}
