@@ -9,26 +9,24 @@ class App extends Component {
   state = {
     settings: {
       display: false,
-      anotheroption: false,
     },
     buttons:
       [
-        { label: "HomePage", to: "/" },
+        { label: "Example Buttons", to: "/" },
         {
-          label: "DropDownMenu",
+          label: "Example Dropdown List",
           list: [
+            { label: "Example Button", to: "/" },
+            { label: "Example Button", to: "/" },
             {
-              label: "2nd Drop down",
+              label: "Example DropDown List",
               list: [
-                { label: "SubPage", to: "/" },
-                { label: "SubPage", to: "/" },
-                { label: "SubPage", to: "/" },
-                { label: "SubPage", to: "/" },
+                { label: "Example Button", to: "/" },
+                { label: "Example Button", to: "/" },
+                { label: "Example Button", to: "/" },
               ],
             },
-            { label: "HomePage", to: "/" },
-            { label: "HomePage", to: "/" },
-            { label: "HomePage", to: "/" },
+            { label: "Example Button", to: "/" },
           ],
         },
       ] || this.props.buttons,

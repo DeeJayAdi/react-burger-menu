@@ -36,5 +36,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "React burger menu created for mobile and desktop browsers",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeeJayAdi/react-burger-menu.git"
+  },
+  "keywords": [
+    "react",
+    "burger",
+    "menu",
+    "dropdown",
+    "list"
+  ],
+  "author": "DeeJay Adi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeeJayAdi/react-burger-menu/issues"
+  },
+  "homepage": "https://github.com/DeeJayAdi/react-burger-menu#readme"
 }

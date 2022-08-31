@@ -1,3 +1,3 @@
 # React Burger Menu
 
-Created for mobile and desktop broswers
+React burger menu created for mobile and desktop browsers
