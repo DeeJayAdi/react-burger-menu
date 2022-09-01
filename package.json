@@ -9,6 +9,7 @@
     "react": "^18.2.0",
     "react-device-detect": "^2.2.2",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
     "react-transition-group": "^4.4.5",
     "web-vitals": "^2.1.4"
@@ -39,7 +40,6 @@
   },
   "description": "React burger menu created for mobile and desktop browsers",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DeeJayAdi/react-burger-menu.git"
@@ -55,6 +55,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DeeJayAdi/react-burger-menu/issues"
-  },
-  "homepage": "https://github.com/DeeJayAdi/react-burger-menu#readme"
+  }
 }
