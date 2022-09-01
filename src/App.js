@@ -29,6 +29,8 @@ class App extends Component {
             { label: "Example Button", to: "/" },
           ],
         },
+        { label: "Example Buttons", to: "/" },
+        { label: "Example Buttons", to: "/" },
       ] || this.props.buttons,
   };
   showMenu = () => {

@@ -3,6 +3,7 @@ import Button from "../Button/Button";
 import { CSSTransition } from "react-transition-group";
 import { useState } from "react";
 import { isMobile } from "react-device-detect";
+import { AiFillCaretDown, AiFillCaretRight } from "react-icons/ai";
 
 const DropDownMenu = (props) => {
   const [show, setShow] = useState(false);
@@ -24,7 +25,7 @@ const DropDownMenu = (props) => {
         }
         onClick={handleShow}
       >
-        {props.label}
+        {props.label} {show ? <AiFillCaretRight /> : <AiFillCaretDown />}
       </div>
 
       <CSSTransition in={show} timeout={300} classNames="show" unmountOnExit>
