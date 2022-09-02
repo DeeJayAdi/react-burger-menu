@@ -46,6 +46,10 @@ class App extends Component {
       this.setState((prev) => ({
         settings: { ...prev.settings, display: true },
       }));
+    } else if (window.innerWidth < 900) {
+      this.setState((prev) => ({
+        settings: { ...prev.settings, display: false },
+      }));
     }
   };
   componentDidMount() {
