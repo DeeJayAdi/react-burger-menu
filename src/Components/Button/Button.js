@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import DropDownMenu from "../DropDownMenu/DropDownMenu";
 import "./Button.css";
 
@@ -9,12 +10,13 @@ const Button = (props) => {
   }
 
   return (
-    <div
+    <Link
+      to={to}
       className="react-hamburger-menu-button"
       onClick={() => props.showMenu()}
     >
       {label}
-    </div>
+    </Link>
   );
 };
 
