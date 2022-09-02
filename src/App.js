@@ -41,12 +41,23 @@ class App extends Component {
       }));
     }
   };
+  handleResize = (e) => {
+    if (window.innerWidth > 900) {
+      this.setState((prev) => ({
+        settings: { ...prev.settings, display: true },
+      }));
+    }
+  };
   componentDidMount() {
     if (!isMobile) {
       this.setState((prev) => ({
         settings: { ...prev.settings, display: true },
       }));
     }
+    window.addEventListener("resize", this.handleResize);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
   }
   render() {
     const { display } = this.state.settings;
