@@ -1,7 +1,7 @@
 {
-  "name": "react-burger-menu",
+  "name": "react-router-dom-menu",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -47,6 +47,9 @@
   },
   "keywords": [
     "react",
+    "router",
+    "dom",
+    "animated",
     "burger",
     "menu",
     "dropdown",

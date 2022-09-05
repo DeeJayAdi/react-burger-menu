@@ -6,7 +6,7 @@ import "./App.css";
 import Button from "./Components/Button/Button";
 import HamburgerIcon from "./Components/HamburgerIcon/HamburgerIcon";
 
-class App extends Component {
+class ReactBurgerMenu extends Component {
   state = {
     settings: {
       display: false,
@@ -88,4 +88,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default ReactBurgerMenu;
