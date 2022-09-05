@@ -11,28 +11,27 @@ class ReactBurgerMenu extends Component {
     settings: {
       display: false,
     },
-    buttons:
-      [
-        { label: "Example Buttons", to: "/" },
-        {
-          label: "Example Dropdown List",
-          list: [
-            { label: "Example Button", to: "/exp1" },
-            { label: "Example Button", to: "/exp2" },
-            {
-              label: "Example DropDown List",
-              list: [
-                { label: "Example Button", to: "/exp3" },
-                { label: "Example Button", to: "/exp4" },
-                { label: "Example Button", to: "/exp5" },
-              ],
-            },
-            { label: "Example Button", to: "/exp6" },
-          ],
-        },
-        { label: "Example Buttons", to: "/exp7" },
-        { label: "Example Buttons", to: "/exp8" },
-      ] || this.props.buttons,
+    buttons: this.props.buttons || [
+      { label: "Example Buttons", to: "/" },
+      {
+        label: "Example Dropdown List",
+        list: [
+          { label: "Example Button", to: "/exp1" },
+          { label: "Example Button", to: "/exp2" },
+          {
+            label: "Example DropDown List",
+            list: [
+              { label: "Example Button", to: "/exp3" },
+              { label: "Example Button", to: "/exp4" },
+              { label: "Example Button", to: "/exp5" },
+            ],
+          },
+          { label: "Example Button", to: "/exp6" },
+        ],
+      },
+      { label: "Example Buttons", to: "/exp7" },
+      { label: "Example Buttons", to: "/exp8" },
+    ],
   };
   showMenu = () => {
     if (isMobile || window.innerWidth < 900) {
