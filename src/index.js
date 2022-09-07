@@ -1,7 +1,7 @@
 import { createRoot } from "react-dom/client";
-import ReactBurgerMenu from "./App";
+import App from "./App";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
 
-root.render(<ReactBurgerMenu />);
+root.render(<App />);

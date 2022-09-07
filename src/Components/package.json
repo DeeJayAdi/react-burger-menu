@@ -1,0 +1,17 @@
+{
+  "name": "reactjs-router-dom-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ReactRouterMenu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "router",
+    "dom",
+    "menu"
+  ],
+  "author": "DeeJay Adi",
+  "license": "ISC"
+}
